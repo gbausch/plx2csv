@@ -208,7 +208,7 @@ int main (int argc, char *argv[])
 					if (cntEvents > 0) fprintf(stdout, " Found %d events ...\n", cntEvents);
 					if (cntSlow > 0) fprintf(stdout, " Found %d continuous ...\n", cntSlow);
 
-					fprintf(stdout, " CSV data ritten in file '%s' ...\n", csvOutFileName);
+					fprintf(stdout, " CSV data written in file '%s' ...\n", csvOutFileName);
 
 					// free allocated memory
 					free(pWaveformData);
